@@ -54,7 +54,7 @@ public class BerBoolean implements Serializable, BerType {
         int codeLength = 1;
 
         if (value) {
-            reverseOS.write(0xff);
+            reverseOS.write(0x01);
         }
         else {
             reverseOS.write(0);

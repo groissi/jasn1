@@ -1,7 +1,7 @@
 
 dependencies {
   compile group: 'antlr', name: 'antlr', version: '2.7.7'
-  compile project(':jasn1')
+  compile project(':jasn1-iec61850mod')
 }
 
 sourceSets {

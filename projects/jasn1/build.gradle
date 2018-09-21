@@ -12,7 +12,7 @@ uploadArchives {
 
       pom.project {
         name 'jASN1'
-        description 'jASN1 is a library used for encoding and decoding ASN.1 BER messages.'
+        description 'jASN1 is a library used for encoding and decoding ASN.1 BER messages. This is a special modified version of the original jASN1 that encodes boolean true values as 0x01 instead of 0xff in order to be compatible with certain IEC 61850 devices'
         
         licenses {
           license {
